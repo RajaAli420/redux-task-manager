@@ -32,6 +32,10 @@ This application allows users to register as either an admin or a regular user. 
 To get a local copy up and running, follow these steps:
 
 1. Clone the repo:
+
    ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+   git clone https://github.com/rajaali420/redux-task-manager.git
+   cd YOUR_REPOSITORY
+   npm install
+   npm run dev
    ```
