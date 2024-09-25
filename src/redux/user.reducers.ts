@@ -30,8 +30,8 @@ export const userSlice = createSlice({
       );
 
       if (index !== -1) {
-        // if (action.payload.password === state[index].password)
-        state[index].isLoggedIn = true;
+        if (action.payload.password === state[index].password)
+          state[index].isLoggedIn = true;
       }
     },
     logoutUser: (state, action: PayloadAction<{ email: string }>) => {
